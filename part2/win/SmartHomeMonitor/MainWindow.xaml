@@ -51,7 +51,7 @@
                 </MenuItem>
                 <MenuItem Header="화면">
                         <MenuItem.Icon>
-                            <iconPacks:PackIconJamIcons Kind="Database" />
+                            <iconPacks:PackIconJamIcons Kind="ScreenF" />
                         </MenuItem.Icon>
                     <MenuItem x:Name="MnuDataBaseMon" Header="DB모니터링" Click="MnuDataBaseMon_Click">
                         <MenuItem.Icon>
