@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
     xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
     xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+    xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
     xmlns:local="clr-namespace:SmartHomeMonitoringApp.Views"
     mc:Ignorable="d" 
     d:DesignHeight="450" d:DesignWidth="800" Loaded="UserControl_Loaded">
@@ -72,7 +73,15 @@
                     </TransformGroup>
                 </Label.LayoutTransform>
             </Label>
-            
+
+            <Grid Grid.Row="1" Grid.Column="2">
+                <lvc:PieChart x:Name="ChtDiningTemp" MinValue="0" MaxValue="50"></lvc:PieChart>
+            </Grid>
+
+            <Grid Grid.Row="2" Grid.Column="2">
+                <lvc:PieChart x:Name="ChtDiningHumid" MinValue="0" MaxValue="100" MaxAngle="270"></lvc:PieChart>
+            </Grid>
+
         </Grid>
     </Grid>
 </UserControl>
