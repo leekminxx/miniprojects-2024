@@ -31,9 +31,6 @@
             </Grid.ColumnDefinitions>
 
             <StackPanel Grid.Column="0" Orientation="Horizontal">
-                <Label Content="방구분" VerticalAlignment="Center" FontSize="14" Margin="10,0,5,0" />
-                <ComboBox x:Name="CboRoomName" Width="100" FontSize="14" VerticalAlignment="Center"
-                          Style="{StaticResource MahApps.Styles.ComboBox}"/>
                 <Label Content="검색 시작일" VerticalAlignment="Center" FontSize="14" Margin="10,0,5,0" />
                 <DatePicker x:Name="DtpStart" Width="110" FontSize="14" VerticalAlignment="Center"
                             Style="{StaticResource MahApps.Styles.DatePicker}"/>
@@ -48,5 +45,7 @@
                     Style="{StaticResource MahApps.Styles.Button.Square.Accent}" Click="BtnSearch_Click" />
         </Grid>
 
+        <oxy:PlotView Grid.Row="2" Grid.Column="0" x:Name="ChtResult" Margin="10" Background="#F0F0F0"></oxy:PlotView>
     </Grid>
+    
 </UserControl>
