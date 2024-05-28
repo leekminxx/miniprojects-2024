@@ -135,11 +135,11 @@ IoT 개발자 미니프로젝트 리포지토리
 		- LiveChart2는 차후에 다시 , 현재는 Oxyplot 차트 대체
 	- 실행결과 
 
-		![IoT프로젝트](https://raw.githubusercontent.com/leekminxx/miniprojects-2024/main/mp002.png)
+		![IoT프로젝트](https://raw.githubusercontent.com/leekminxx/miniprojects-2024/main/images/mp002.png)
 		
-		![IoT프로젝트](https://raw.githubusercontent.com/leekminxx/miniprojects-2024/main/mp003.png)
+		![IoT프로젝트](https://raw.githubusercontent.com/leekminxx/miniprojects-2024/main/images/mp003.png)
 		
-		![IoT프로젝트](https://raw.githubusercontent.com/leekminxx/miniprojects-2024/main/mp004.png)
+		![IoT프로젝트](https://raw.githubusercontent.com/leekminxx/miniprojects-2024/main/images/mp004.png)
 
 - 조별 미니 프로젝트 발표
 	- 1~5조 까지
